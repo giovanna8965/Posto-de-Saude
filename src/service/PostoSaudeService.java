@@ -20,3 +20,4 @@ public class PostoSaudeService {
 
     // Métodos para cadastrar médicos, agendar consultas, etc.
 }
+

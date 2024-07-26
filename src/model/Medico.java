@@ -1,18 +1,16 @@
 package model;
 
-public class Paciente {
+public class Medico {
     private String nome;
-    private String cpf;
-    private String telefone;
-    private String endereco;
+    private String crm;
+    private String especialidade;
 
     // Construtores, getters e setters
 
-    public Paciente(String nome, String cpf, String telefone, String endereco) {
+    public Medico(String nome, String crm, String especialidade) {
         this.nome = nome;
-        this.cpf = cpf;
-        this.telefone = telefone;
-        this.endereco = endereco;
+        this.crm = crm;
+        this.especialidade = especialidade;
     }
 
     public String getNome() {
@@ -23,27 +21,20 @@ public class Paciente {
         this.nome = nome;
     }
 
-    public String getCpf() {
-        return cpf;
+    public String getCrm() {
+        return crm;
     }
 
-    public void setCpf(String cpf) {
-        this.cpf = cpf;
+    public void setCrm(String crm) {
+        this.crm = crm;
     }
 
-    public String getTelefone() {
-        return telefone;
+    public String getEspecialidade() {
+        return especialidade;
     }
 
-    public void setTelefone(String telefone) {
-        this.telefone = telefone;
-    }
-
-    public String getEndereco() {
-        return endereco;
-    }
-
-    public void setEndereco(String endereco) {
-        this.endereco = endereco;
+    public void setEspecialidade(String especialidade) {
+        this.especialidade = especialidade;
     }
 }
+
